@@ -1,0 +1,241 @@
+.slider {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.84) 0%,
+    rgba(0, 0, 0, 0.69) 5.52%,
+    rgba(0, 0, 0, 0.58) 15.09%
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.84) 0%,
+      rgba(0, 0, 0, 0.69) 5.52%,
+      rgba(0, 0, 0, 0.58) 15.09%
+    ),
+    url(../assets/IMG_1652.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.ir-a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  width: 200px;
+  border: 2px solid #fff;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.padre-vector {
+  width: 100%;
+  position: absolute;
+  /* top: 42em; */
+}
+.slides-proyect {
+  width: 100%;
+  position: absolute;
+  /* top: 45em; */
+  text-align: center;
+  z-index: 99;
+}
+.slides-proyect .img-proy {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0px 4px 12px 2px rgba(0, 0, 0, 0.71);
+}
+.arrow-bottom {
+  width: 100%;
+  position: absolute;
+  /* top: 40em; */
+  text-align: center;
+  z-index: 99;
+}
+.years {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+.years img {
+  width: 150px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tarjets {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  position: relative;
+  justify-content: center;
+}
+.target-proy {
+  text-decoration: none;
+  color: white;
+  width: 118px;
+  height: 105px;
+  flex-shrink: 0;
+  font-size: 12px;
+  border-radius: 22px;
+  text-align: center;
+  box-shadow: 0px 4px 19px 0px rgba(0, 0, 0, 0.55);
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjet-color1 {
+  background: #016733;
+}
+.tarjet-color2 {
+  background: #39b54a;
+}
+.buton {
+  width: 250px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #d9d9d9;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buton p {
+  margin: 0rem 1rem 0rem 1rem;
+}
+.vector2 {
+  height: 500px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #3baa36 0%, #016733 100%);
+  color: white;
+}
+.nw {
+  margin: 1rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 27px;
+  background: lightgray 50% / cover no-repeat;
+  box-shadow: 0px 4px 14px 0px #000,
+    0px 0px 43px 79px rgba(0, 0, 0, 0.388) inset;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+}
+.nw h3 {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.nw1 {
+  width: 600px;
+  height: 560px;
+}
+.nw4 {
+  width: 660px;
+  height: 200px;
+}
+.mapa {
+  height: 300px;
+}
+
+@media (min-height: 300px) {
+  .padre-vector {
+    top: 28em;
+  }
+  .slides-proyect {
+    top: 28em;
+  }
+  .arrow-bottom {
+    top: 24em;
+  }
+}
+@media (min-height: 600px) {
+  .padre-vector {
+    top: 44em;
+  }
+  .slides-proyect {
+    top: 42em;
+  }
+  .arrow-bottom {
+    top: 37em;
+  }
+}
+@media (max-width: 800px) {
+  .nw1 {
+    width: 300px;
+    height: 300px;
+  }
+  .nw4 {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .mapa {
+    height: 200px;
+  }
+  .target-proy {
+    width: 100px;
+  }
+}
+@media (min-height: 800px) {
+  .padre-vector {
+    top: 44em;
+  }
+  .slides-proyect {
+    top: 44em;
+  }
+  .arrow-bottom {
+    top: 38em;
+  }
+}
+@media (min-height: 1100px) {
+  .padre-vector {
+    top: 55em;
+  }
+  .slides-proyect {
+    top: 50em;
+  }
+  .arrow-bottom {
+    top: 45em;
+  }
+}
+@media (min-width: 900px) {
+  .padre-vector {
+    top: 35em;
+  }
+  .slides-proyect {
+    top: 45em;
+  }
+  .arrow-bottom {
+    top: 38em;
+  }
+}
+@media (min-height: 1200px) {
+  .padre-vector {
+    top: 47em;
+  }
+  .slides-proyect {
+    top: 58em;
+  }
+  .arrow-bottom {
+    top: 50em;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  right: 3%;
+  display: flex;
+  justify-content: space-around;
+}
+.header img {
+  width: 500px;
+}
+.social-media {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 20%;
+  left: 80%;
+}
+.social-media svg {
+  margin: 0.2rem;
+}
+@media (max-width: 800px) {
+  .header img {
+    width: 300px;
+  }
+  .social-media {
+    left: 90%;
+  }
+}
