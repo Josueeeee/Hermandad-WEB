@@ -4,7 +4,7 @@
   flex-shrink: 0;
   background: linear-gradient(180deg, #016733 0%, #ffc700 100%);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
   position: relative;
   padding-top: 2rem;
@@ -47,5 +47,5 @@
   margin: 1rem 0rem 1rem 0rem;
 }
 .links p {
-  margin: 1rem;
+  margin: 0.2rem;
 }
